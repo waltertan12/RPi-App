@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
 	devise_for :users
 
-#	root 'pages#index'
+	root 'pages#index'
 	authenticated :user do
-	#	get 'chat' =>		"users#index"
-		root 'users#index'
+		get 'chat' =>		"users#index"
+	#	root 'users#index'
 	 end
 
 	unauthenticated :user do
