@@ -83,6 +83,7 @@
 .self .chatboxmessagecontent {
     order: 1;
     border-bottom-right-radius: 0;
+	color: black;
 }
  
 .self .avatar {
@@ -143,6 +144,7 @@
     margin: 1px;
     overflow: hidden;
     resize: none !important;
+	color: black;
 }
  
 .chatboxtextareaselected {
