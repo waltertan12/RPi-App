@@ -9,11 +9,20 @@
 	.container p {
 		font-style: italic;
 	}
+
+	.comic {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
 </style>
 </head>
 <div class="container">
 <h1>lol what even is this?</h1>
 <h3>i don't get it</h3>
-<img src="http://i.imgur.com/QcCyIuN.gif" alt="cheating.gif">
+</div>
+<img class="comic" src="http://i.imgur.com/QcCyIuN.gif" alt="cheating.gif">
+<div class="container">
 <p class="info">It's actually a Raspberry Pi hosted web app that does absolutely <%= link_to_if user_signed_in?, "nothing", chat_path %>... Just in case you were wondering</p>
 </div>
